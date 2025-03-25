@@ -38,10 +38,7 @@ document.addEventListener("DOMContentLoaded", () => {
                 const downloadButton = document.createElement("button");
                 downloadButton.textContent = "Download";
                 downloadButton.textContent = "Download";                 
-                downloadButton.style.marginTop = "20px";                
-                 downloadButton.style.marginBottom = "20px";                
-                downloadButton.style.padding = "5px";              
-                downloadButton.style.backgroundColor = "#D4AF37";                 downloadButton.style.width = "10%";
+                downloadButton.style.marginTop = "20px";                 downloadButton.style.marginBottom = "20px";                 downloadButton.style.padding = "5px";                 downloadButton.style.backgroundColor = "#D4AF37";                 downloadButton.style.width = "10%";
                 
                 downloadButton.addEventListener("click", () => {
                     alert(`Downloading ${series.title}...`); // Example action
