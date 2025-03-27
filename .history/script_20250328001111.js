@@ -44,6 +44,12 @@ document.addEventListener("DOMContentLoaded", () => {
                 downloadButton.style.backgroundColor = "#D4AF37"; 
                 downloadButton.style.width = "10%";
                 
+                
+                
+                
+                
+                
+                
                 downloadButton.addEventListener("click", () => {
                     alert(`Downloading ${series.title}...`); // Example action
                 });
