@@ -29,7 +29,7 @@ document.addEventListener("DOMContentLoaded", () => {
                 updateSeriesDetails(seriesData[0]);
             }
 
-            
+            // Populate the series list dynamically
             seriesList.innerHTML = ""; // Clear existing list
             seriesData.forEach(series => {
                 const listItem = document.createElement("li");

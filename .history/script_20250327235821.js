@@ -29,7 +29,7 @@ document.addEventListener("DOMContentLoaded", () => {
                 updateSeriesDetails(seriesData[0]);
             }
 
-            
+            // Populate the series list dynamically
             seriesList.innerHTML = ""; // Clear existing list
             seriesData.forEach(series => {
                 const listItem = document.createElement("li");
@@ -39,7 +39,7 @@ document.addEventListener("DOMContentLoaded", () => {
                 downloadButton.textContent = "Download";
                 downloadButton.textContent = "Download";                 
                 downloadButton.style.marginTop = "20px";                
-                downloadButton.style.marginBottom = "20px";                
+                 downloadButton.style.marginBottom = "20px";                
                 downloadButton.style.padding = "5px";              
                 downloadButton.style.backgroundColor = "#D4AF37"; 
                 downloadButton.style.width = "10%";
