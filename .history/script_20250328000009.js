@@ -43,7 +43,7 @@ document.addEventListener("DOMContentLoaded", () => {
                 downloadButton.style.padding = "5px";              
                 downloadButton.style.backgroundColor = "#D4AF37"; 
                 downloadButton.style.width = "10%";
-                downloadButton.style.borderRadius = "5px";
+                downloadButton.style.borderRadius = "5px";git 
                 
                 downloadButton.addEventListener("click", () => {
                     alert(`Downloading ${series.title}...`); // Example action
